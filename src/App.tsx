@@ -392,86 +392,41 @@ const About = () => {
 const Contact = () => {
   return (
     <section id="contact" className="py-24 px-6 bg-beige-100">
-      <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-20">
+      <div className="max-w-7xl mx-auto text-center">
+        <div className="mb-20">
           <h2 className="text-5xl mb-4">Get in Touch</h2>
-          <p className="text-stone-500 max-w-xl mx-auto">For commissions, gallery inquiries, or customizations, please reach out using the form below.</p>
+          <p className="text-stone-500 max-w-xl mx-auto">For commissions, gallery inquiries, or customizations, please reach out via email or phone.</p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-16">
-          <div className="lg:col-span-1 space-y-12">
-            <div className="space-y-6">
-              <h3 className="text-2xl">Contact Details</h3>
-              <div className="space-y-4">
-                <a href="mailto:artby.ash29@gmail.com" className="flex items-center gap-4 text-stone-600 hover:text-stone-900 transition-colors group">
-                  <div className="w-10 h-10 rounded-full border border-stone-200 flex items-center justify-center group-hover:bg-stone-900 group-hover:text-white transition-all">
-                    <Mail size={18} />
-                  </div>
-                  artby.ash29@gmail.com
-                </a>
-                <a href="tel:+91-9907067136" className="flex items-center gap-4 text-stone-600 hover:text-stone-900 transition-colors group">
-                  <div className="w-10 h-10 rounded-full border border-stone-200 flex items-center justify-center group-hover:bg-stone-900 group-hover:text-white transition-all">
-                    <Phone size={18} />
-                  </div>
-                  +91- 9907067136
-                </a>
-              </div>
+        <div className="flex flex-col md:flex-row justify-center items-start md:items-center gap-16 md:gap-32">
+          <div className="space-y-6 text-left">
+            <h3 className="text-2xl uppercase tracking-widest text-stone-400 text-xs font-semibold">Contact Details</h3>
+            <div className="space-y-4">
+              <a href="mailto:artby.ash29@gmail.com" className="flex items-center gap-4 text-stone-600 hover:text-stone-900 transition-colors group">
+                <div className="w-10 h-10 rounded-full border border-stone-200 flex items-center justify-center group-hover:bg-stone-900 group-hover:text-white transition-all">
+                  <Mail size={18} />
+                </div>
+                artby.ash29@gmail.com
+              </a>
+              <a href="tel:+91-9907067136" className="flex items-center gap-4 text-stone-600 hover:text-stone-900 transition-colors group">
+                <div className="w-10 h-10 rounded-full border border-stone-200 flex items-center justify-center group-hover:bg-stone-900 group-hover:text-white transition-all">
+                  <Phone size={18} />
+                </div>
+                +91- 9907067136
+              </a>
             </div>
-
-            <div className="space-y-6">
-              <h3 className="text-2xl">Social</h3>
-              <div className="flex gap-4">
-                <a href="https://www.instagram.com/being_ash_aj/" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full border border-stone-200 flex items-center justify-center hover:bg-stone-900 hover:text-white transition-all">
-                  <Instagram size={20} />
-                </a>
-                <a href="#" className="w-12 h-12 rounded-full border border-stone-200 flex items-center justify-center hover:bg-stone-900 hover:text-white transition-all">
-                  <ExternalLink size={20} />
-                </a>
-              </div>
-            </div>
-
           </div>
 
-          <div className="lg:col-span-2">
-            <form className="grid grid-cols-1 md:grid-cols-2 gap-8" onSubmit={(e) => e.preventDefault()}>
-              <div className="space-y-2">
-                <label className="text-[10px] uppercase tracking-widest text-stone-400">Full Name</label>
-                <input 
-                  type="text" 
-                  className="w-full bg-transparent border-b border-stone-300 py-3 focus:outline-none focus:border-stone-900 transition-colors"
-                  placeholder=""
-                />
-              </div>
-              <div className="space-y-2">
-                <label className="text-[10px] uppercase tracking-widest text-stone-400">Email Address</label>
-                <input 
-                  type="email" 
-                  className="w-full bg-transparent border-b border-stone-300 py-3 focus:outline-none focus:border-stone-900 transition-colors"
-                  placeholder=""
-                />
-              </div>
-              <div className="md:col-span-2 space-y-2">
-                <label className="text-[10px] uppercase tracking-widest text-stone-400">Subject</label>
-                <input 
-                  type="text" 
-                  className="w-full bg-transparent border-b border-stone-300 py-3 focus:outline-none focus:border-stone-900 transition-colors"
-                  placeholder=""
-                />
-              </div>
-              <div className="md:col-span-2 space-y-2">
-                <label className="text-[10px] uppercase tracking-widest text-stone-400">Message</label>
-                <textarea 
-                  rows={5}
-                  className="w-full bg-transparent border-b border-stone-300 py-3 focus:outline-none focus:border-stone-900 transition-colors resize-none"
-                  placeholder="Tell me about your interest or inquiry..."
-                />
-              </div>
-              <div className="md:col-span-2 pt-4">
-                <button className="w-full md:w-auto px-12 py-4 bg-stone-900 text-white uppercase tracking-widest text-xs hover:bg-stone-800 transition-colors">
-                  Send Message
-                </button>
-              </div>
-            </form>
+          <div className="space-y-6 text-left">
+            <h3 className="text-2xl uppercase tracking-widest text-stone-400 text-xs font-semibold">Social</h3>
+            <div className="flex gap-4">
+              <a href="https://www.instagram.com/being_ash_aj/" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full border border-stone-200 flex items-center justify-center hover:bg-stone-900 hover:text-white transition-all">
+                <Instagram size={20} />
+              </a>
+              <a href="#" className="w-12 h-12 rounded-full border border-stone-200 flex items-center justify-center hover:bg-stone-900 hover:text-white transition-all">
+                <ExternalLink size={20} />
+              </a>
+            </div>
           </div>
         </div>
       </div>
