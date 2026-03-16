@@ -13,6 +13,7 @@ import {
   ChevronRight, 
   Menu,
   ArrowUpRight,
+  ArrowLeft,
   ExternalLink
 } from 'lucide-react';
 
@@ -283,7 +284,15 @@ const Gallery = () => {
             onClick={() => setSelectedArtwork(null)}
           >
             <button 
-              className="absolute top-8 right-8 text-stone-900 hover:rotate-90 transition-transform duration-300"
+              className="absolute top-8 left-8 flex items-center gap-2 text-stone-900 group z-50"
+              onClick={() => setSelectedArtwork(null)}
+            >
+              <ArrowLeft size={24} className="group-hover:-translate-x-1 transition-transform" />
+              <span className="text-xs uppercase tracking-widest font-medium">Back</span>
+            </button>
+
+            <button 
+              className="absolute top-8 right-8 text-stone-900 hover:rotate-90 transition-transform duration-300 z-50"
               onClick={() => setSelectedArtwork(null)}
             >
               <X size={32} />
