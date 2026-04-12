@@ -26,6 +26,7 @@ interface Artwork {
   size: string;
   price: string;
   imageUrl: string;
+  isSoldOut?: boolean;
 }
 
 // --- Mock Data ---
@@ -37,7 +38,8 @@ const ARTWORKS: Artwork[] = [
     medium: "Acrylic on Canvas",
     size: "6 x 6 inches",
     price: "Rs 399 INR",
-    imageUrl: "https://image2url.com/r2/default/images/1772970566259-96ec78fb-0864-4dfc-8976-3f3aeaab52b1.jpeg"
+    imageUrl: "https://image2url.com/r2/default/images/1772970566259-96ec78fb-0864-4dfc-8976-3f3aeaab52b1.jpeg",
+    isSoldOut: true
   },
   {
     id: 2,
@@ -238,6 +240,17 @@ const Gallery = () => {
                 className="relative aspect-[4/5] overflow-hidden bg-stone-200 cursor-pointer mb-6"
                 onClick={() => setSelectedArtwork(artwork)}
               >
+                {artwork.isSoldOut && (
+                  <div className="absolute top-4 right-4 z-10">
+                    <motion.span 
+                      initial={{ opacity: 0, x: 20 }}
+                      animate={{ opacity: 1, x: 0 }}
+                      className="bg-stone-900 text-white text-[10px] uppercase tracking-[0.2em] px-4 py-2 block"
+                    >
+                      Sold Out
+                    </motion.span>
+                  </div>
+                )}
                 <img 
                   src={artwork.imageUrl} 
                   alt={artwork.title} 
@@ -306,6 +319,13 @@ const Gallery = () => {
               onClick={(e) => e.stopPropagation()}
             >
               <div className="relative aspect-[4/5] lg:aspect-auto lg:h-[80vh] bg-stone-200 shadow-2xl">
+                {selectedArtwork.isSoldOut && (
+                  <div className="absolute top-6 right-6 z-10">
+                    <span className="bg-stone-900 text-white text-xs uppercase tracking-[0.3em] px-6 py-3 block shadow-xl">
+                      Sold Out
+                    </span>
+                  </div>
+                )}
                 <img 
                   src={selectedArtwork.imageUrl} 
                   alt={selectedArtwork.title} 
