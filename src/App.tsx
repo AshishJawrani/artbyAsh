@@ -71,7 +71,8 @@ const ARTWORKS: Artwork[] = [
     medium: "Acrylic on Canvas",
     size: "10 x 12 inches",
     price: "Rs 349 INR",
-    imageUrl: "https://image2url.com/r2/default/images/1772970769348-24ce8a19-1376-44d2-a99a-01ea7e000c21.jpeg"
+    imageUrl: "https://image2url.com/r2/default/images/1772970769348-24ce8a19-1376-44d2-a99a-01ea7e000c21.jpeg",
+    isSoldOut: true
   },
   {
     id: 6,
@@ -80,6 +81,14 @@ const ARTWORKS: Artwork[] = [
     size: "6 x 6 inches",
     price: "Rs 199 INR",
     imageUrl: "https://image2url.com/r2/default/images/1772971007598-8ec239d9-3309-4b7b-a7d3-3b5b28a65294.jpeg"
+  },
+  {
+    id: 7,
+    title: "Shri Kedarnath Dham",
+    medium: "Acrylic on Canvas",
+    size: "6 inches",
+    price: "Rs 299 INR",
+    imageUrl: "https://www.image2url.com/r2/default/images/1776843742125-ce615d0b-7b5d-4a1d-9eec-a56a6d6993db.jpeg"
   }
 ];
 
