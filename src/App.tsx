@@ -37,7 +37,7 @@ const ARTWORKS: Artwork[] = [
     title: "Little Ganesha",
     medium: "Acrylic on Canvas",
     size: "6 x 6 inches",
-    price: "Rs 399 INR",
+    price: "Rs 299 INR",
     imageUrl: "https://image2url.com/r2/default/images/1772970566259-96ec78fb-0864-4dfc-8976-3f3aeaab52b1.jpeg",
     isSoldOut: true
   },
@@ -46,7 +46,7 @@ const ARTWORKS: Artwork[] = [
     title: "Shivlingam",
     medium: "Acrylic on Canvas",
     size: "6 inches",
-    price: "Rs 449 INR",
+    price: "Rs 349 INR",
     imageUrl: "https://image2url.com/r2/default/images/1773464538670-ca20e25e-00a6-4182-9d53-0943590e9c2b.jpeg"
   },
   {
@@ -79,7 +79,7 @@ const ARTWORKS: Artwork[] = [
     title: "Starlit Tides",
     medium: "Acrylic on Canvas",
     size: "6 x 6 inches",
-    price: "Rs 199 INR",
+    price: "Rs 249 INR",
     imageUrl: "https://image2url.com/r2/default/images/1772971007598-8ec239d9-3309-4b7b-a7d3-3b5b28a65294.jpeg"
   },
   {
