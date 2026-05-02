@@ -80,7 +80,8 @@ const ARTWORKS: Artwork[] = [
     medium: "Acrylic on Canvas",
     size: "6 x 6 inches",
     price: "Rs 249 INR",
-    imageUrl: "https://image2url.com/r2/default/images/1772971007598-8ec239d9-3309-4b7b-a7d3-3b5b28a65294.jpeg"
+    imageUrl: "https://image2url.com/r2/default/images/1772971007598-8ec239d9-3309-4b7b-a7d3-3b5b28a65294.jpeg",
+    isSoldOut: true
   },
   {
     id: 7,
