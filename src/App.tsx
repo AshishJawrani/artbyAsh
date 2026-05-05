@@ -90,6 +90,22 @@ const ARTWORKS: Artwork[] = [
     size: "6 inches",
     price: "Rs 299 INR",
     imageUrl: "https://www.image2url.com/r2/default/images/1776843742125-ce615d0b-7b5d-4a1d-9eec-a56a6d6993db.jpeg"
+  },
+  {
+    id: 8,
+    title: "Lanterns",
+    medium: "Acrylic on Canvas",
+    size: "8 * 10 inches",
+    price: "Rs 279 INR",
+    imageUrl: "https://www.image2url.com/r2/default/images/1777974874344-229266af-0da4-45bc-98e7-32144df841ee.jpeg"
+  },
+  {
+    id: 9,
+    title: "The Keralam",
+    medium: "Acrylic on Canvas",
+    size: "6 x 6 inches",
+    price: "Rs 249 INR",
+    imageUrl: "https://www.image2url.com/r2/default/images/1777975768706-955cca74-4f53-47de-9f8a-6c93ee32acf4.jpeg"
   }
 ];
 
