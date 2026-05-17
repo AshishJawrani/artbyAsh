@@ -38,8 +38,7 @@ const ARTWORKS: Artwork[] = [
     medium: "Acrylic on Canvas",
     size: "6 x 6 inches",
     price: "Rs 299 INR",
-    imageUrl: "https://image2url.com/r2/default/images/1772970566259-96ec78fb-0864-4dfc-8976-3f3aeaab52b1.jpeg",
-    isSoldOut: true
+    imageUrl: "https://image2url.com/r2/default/images/1772970566259-96ec78fb-0864-4dfc-8976-3f3aeaab52b1.jpeg"
   },
   {
     id: 2,
@@ -49,8 +48,16 @@ const ARTWORKS: Artwork[] = [
     price: "Rs 349 INR",
     imageUrl: "https://image2url.com/r2/default/images/1773464538670-ca20e25e-00a6-4182-9d53-0943590e9c2b.jpeg"
   },
-  {
+ {
     id: 3,
+    title: "Sunset Serenity",
+    medium: "Acrylic on Canvas",
+    size: "10 x 12 inches",
+    price: "Rs 379 INR",
+    imageUrl: "https://www.image2url.com/r2/default/images/1779011460665-6493337c-c0f3-448e-a123-23141c3b7248.jpeg"
+  }, 
+  {
+    id: 4,
     title: "Green Forest",
     medium: "Acrylic on Canvas",
     size: "6 x 8 inches",
@@ -58,7 +65,7 @@ const ARTWORKS: Artwork[] = [
     imageUrl: "https://image2url.com/r2/default/images/1773464793063-ef1a1b5b-29e5-42a6-98ec-9cc2aaed586d.jpeg"
   },
   {
-    id: 4,
+    id: 5,
     title: "Ember Moon",
     medium: "Acrylic on Canvas",
     size: "6 x 8 inches",
@@ -66,7 +73,7 @@ const ARTWORKS: Artwork[] = [
     imageUrl: "https://image2url.com/r2/default/images/1772970727278-ac8b5bb9-9805-4f28-8ac6-a1eb0559eee6.jpeg"
   },
   {
-    id: 5,
+    id: 6,
     title: "Golden Passage",
     medium: "Acrylic on Canvas",
     size: "10 x 12 inches",
@@ -75,7 +82,7 @@ const ARTWORKS: Artwork[] = [
     isSoldOut: true
   },
   {
-    id: 6,
+    id: 7,
     title: "Starlit Tides",
     medium: "Acrylic on Canvas",
     size: "6 x 6 inches",
@@ -84,7 +91,7 @@ const ARTWORKS: Artwork[] = [
     isSoldOut: true
   },
   {
-    id: 7,
+    id: 8,
     title: "Shri Kedarnath Dham",
     medium: "Acrylic on Canvas",
     size: "6 inches",
@@ -92,19 +99,19 @@ const ARTWORKS: Artwork[] = [
     imageUrl: "https://www.image2url.com/r2/default/images/1776843742125-ce615d0b-7b5d-4a1d-9eec-a56a6d6993db.jpeg"
   },
   {
-    id: 8,
+    id: 9,
     title: "Lanterns",
     medium: "Acrylic on Canvas",
-    size: "8 * 10 inches",
+    size: "8 x 10 inches",
     price: "Rs 279 INR",
     imageUrl: "https://www.image2url.com/r2/default/images/1777974874344-229266af-0da4-45bc-98e7-32144df841ee.jpeg"
   },
   {
-    id: 9,
+    id: 10,
     title: "The Keralam",
     medium: "Acrylic on Canvas",
     size: "6 x 6 inches",
-    price: "Rs 249 INR",
+    price: "Rs 289 INR",
     imageUrl: "https://www.image2url.com/r2/default/images/1777975768706-955cca74-4f53-47de-9f8a-6c93ee32acf4.jpeg"
   }
 ];
