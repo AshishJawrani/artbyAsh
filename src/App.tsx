@@ -121,6 +121,14 @@ const ARTWORKS: Artwork[] = [
     size: "6 x 6 inches",
     price: "Rs 289 INR",
     imageUrl: "https://www.image2url.com/r2/default/images/1777975768706-955cca74-4f53-47de-9f8a-6c93ee32acf4.jpeg"
+  },
+  {
+    id: 12,
+    title: "Golden Hours",
+    medium: "Acrylic on Canvas",
+    size: "8 inches",
+    price: "Rs 439 INR",
+    imageUrl: "https://img.sanishtech.com/u/60b06cbc53c0363c9fee8d81c786d89f.jpeg"
   }
 ];
 
