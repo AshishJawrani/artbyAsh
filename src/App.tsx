@@ -128,7 +128,7 @@ const ARTWORKS: Artwork[] = [
     medium: "Acrylic on Canvas",
     size: "8 inches",
     price: "Rs 439 INR",
-    imageUrl: "https://img.sanishtech.com/u/60b06cbc53c0363c9fee8d81c786d89f.jpeg"
+    imageUrl: "https://www.image2url.com/r2/default/images/1781032010091-1f12cf1f-e126-4a47-ad63-4a88e23fd07c.jpg"
   }
 ];
 
