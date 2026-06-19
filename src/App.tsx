@@ -129,6 +129,14 @@ const ARTWORKS: Artwork[] = [
     size: "8 inches",
     price: "Rs 439 INR",
     imageUrl: "https://www.image2url.com/r2/default/images/1781032010091-1f12cf1f-e126-4a47-ad63-4a88e23fd07c.jpg"
+  },
+  {
+    id: 13,
+    title: "Starry Night",
+    medium: "Acrylic on Canvas",
+    size: "8 x 8 inches",
+    price: "Rs 399 INR",
+    imageUrl: "https://www.image2url.com/r2/default/images/1781872039232-aadde60a-a2c6-4e59-a1f9-af2757fc062f.jpeg"
   }
 ];
 
