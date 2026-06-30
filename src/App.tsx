@@ -111,7 +111,7 @@ const ARTWORKS: Artwork[] = [
     title: "Lanterns",
     medium: "Acrylic on Canvas",
     size: "8 x 10 inches",
-    price: "Rs 279 INR",
+    price: "Rs 299 INR",
     imageUrl: "https://www.image2url.com/r2/default/images/1777974874344-229266af-0da4-45bc-98e7-32144df841ee.jpeg"
   },
   {
@@ -135,8 +135,16 @@ const ARTWORKS: Artwork[] = [
     title: "Starry Night",
     medium: "Acrylic on Canvas",
     size: "8 x 8 inches",
-    price: "Rs 399 INR",
+    price: "Rs 379 INR",
     imageUrl: "https://www.image2url.com/r2/default/images/1781872039232-aadde60a-a2c6-4e59-a1f9-af2757fc062f.jpeg"
+  },
+  {
+    id: 14,
+    title: "Purple Hush",
+    medium: "Acrylic on Canvas",
+    size: "8 x 10 inches",
+    price: "Rs 429 INR",
+    imageUrl: "https://www.image2url.com/r2/default/images/1782813828218-f4a6a4c7-830c-46a2-8c31-e623d00439d9.jpeg"
   }
 ];
 
