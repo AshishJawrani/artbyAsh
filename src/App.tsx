@@ -145,6 +145,14 @@ const ARTWORKS: Artwork[] = [
     size: "8 x 10 inches",
     price: "Rs 429 INR",
     imageUrl: "https://www.image2url.com/r2/default/images/1782813828218-f4a6a4c7-830c-46a2-8c31-e623d00439d9.jpeg"
+  },
+  {
+    id: 15,
+    title: "Whispering Falls",
+    medium: "Acrylic on Canvas",
+    size: "8 x 8 inches",
+    price: "Rs 319 INR",
+    imageUrl: "https://www.image2url.com/r2/default/images/1783438989033-61c16f30-048a-42d2-b660-cefdfebfc060.jpeg"
   }
 ];
 
