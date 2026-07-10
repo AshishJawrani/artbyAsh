@@ -151,8 +151,16 @@ const ARTWORKS: Artwork[] = [
     title: "Whispering Falls",
     medium: "Acrylic on Canvas",
     size: "8 x 8 inches",
-    price: "Rs 319 INR",
+    price: "Rs 329 INR",
     imageUrl: "https://www.image2url.com/r2/default/images/1783440343074-3c850e09-2f99-42d8-a77e-a076c7cea44a.jpeg"
+  },
+  {
+    id: 15,
+    title: "Coastal Solitude",
+    medium: "Acrylic on Canvas",
+    size: "8 x 10 inches",
+    price: "Rs 449 INR",
+    imageUrl: "https://www.image2url.com/r2/default/images/1783701342637-2c4e56cc-1e1f-44fc-b99f-ff8d8d1b4047.jpeg"
   }
 ];
 
