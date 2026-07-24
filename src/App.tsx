@@ -152,15 +152,23 @@ const ARTWORKS: Artwork[] = [
     medium: "Acrylic on Canvas",
     size: "8 x 8 inches",
     price: "Rs 329 INR",
-    imageUrl: "https://www.image2url.com/r2/default/images/1783440343074-3c850e09-2f99-42d8-a77e-a076c7cea44a.jpeg"
+    imageUrl: "https://www.image2url.com/r2/default/images/1784901440501-fe6142d3-ca80-445a-8486-735d551d0304.jpeg"
   },
   {
-    id: 15,
+    id: 16,
     title: "Coastal Solitude",
     medium: "Acrylic on Canvas",
     size: "8 x 10 inches",
     price: "Rs 449 INR",
     imageUrl: "https://www.image2url.com/r2/default/images/1783701342637-2c4e56cc-1e1f-44fc-b99f-ff8d8d1b4047.jpeg"
+  },
+    {
+    id: 17,
+    title: "Aurora Peaks",
+    medium: "Acrylic on Canvas",
+    size: "8 x 10 inches",
+    price: "Rs 499 INR",
+    imageUrl: "https://www.image2url.com/r2/default/images/1784902282699-a47f44d2-3d60-4cf1-be30-5fb4eaf7a16f.jpeg"
   }
 ];
 
