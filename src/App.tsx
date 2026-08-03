@@ -169,19 +169,19 @@ const ARTWORKS: Artwork[] = [
   },
     {
     id: 17,
-    title: "Aurora Peaks",
-    medium: "Acrylic on Canvas",
-    size: "8 x 10 inches",
-    price: "Rs 499 INR",
-    imageUrl: "https://www.image2url.com/r2/default/images/1784902282699-a47f44d2-3d60-4cf1-be30-5fb4eaf7a16f.jpeg"
-  },
-    {
-    id: 18,
     title: "Shivoham",
     medium: "Acrylic on Canvas",
     size: "8 x 8 inches",
     price: "Rs 399 INR",
     imageUrl: "https://www.image2url.com/r2/default/images/1785743879178-71017ee6-2287-4583-9b84-c5eb751d0bad.jpeg"
+  },
+  {
+    id: 18,
+    title: "Aurora Peaks",
+    medium: "Acrylic on Canvas",
+    size: "8 x 10 inches",
+    price: "Rs 499 INR",
+    imageUrl: "https://www.image2url.com/r2/default/images/1784902282699-a47f44d2-3d60-4cf1-be30-5fb4eaf7a16f.jpeg"
   }
 ];
 
