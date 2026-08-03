@@ -46,7 +46,8 @@ const ARTWORKS: Artwork[] = [
     medium: "Acrylic on Canvas",
     size: "6 inches",
     price: "Rs 349 INR",
-    imageUrl: "https://image2url.com/r2/default/images/1773464538670-ca20e25e-00a6-4182-9d53-0943590e9c2b.jpeg"
+    imageUrl: "https://image2url.com/r2/default/images/1773464538670-ca20e25e-00a6-4182-9d53-0943590e9c2b.jpeg",
+    isSoldOut: true
   },
   {
     id: 3,
@@ -78,7 +79,8 @@ const ARTWORKS: Artwork[] = [
     medium: "Acrylic on Canvas",
     size: "6 x 8 inches",
     price: "Rs 299 INR",
-    imageUrl: "https://image2url.com/r2/default/images/1772970727278-ac8b5bb9-9805-4f28-8ac6-a1eb0559eee6.jpeg"
+    imageUrl: "https://image2url.com/r2/default/images/1772970727278-ac8b5bb9-9805-4f28-8ac6-a1eb0559eee6.jpeg",
+    isSoldOut: true
   },
   {
     id: 7,
@@ -112,7 +114,8 @@ const ARTWORKS: Artwork[] = [
     medium: "Acrylic on Canvas",
     size: "8 x 10 inches",
     price: "Rs 299 INR",
-    imageUrl: "https://www.image2url.com/r2/default/images/1777974874344-229266af-0da4-45bc-98e7-32144df841ee.jpeg"
+    imageUrl: "https://www.image2url.com/r2/default/images/1777974874344-229266af-0da4-45bc-98e7-32144df841ee.jpeg",
+    isSoldOut: true
   },
   {
     id: 11,
@@ -128,7 +131,8 @@ const ARTWORKS: Artwork[] = [
     medium: "Acrylic on Canvas",
     size: "8 inches",
     price: "Rs 439 INR",
-    imageUrl: "https://www.image2url.com/r2/default/images/1781032010091-1f12cf1f-e126-4a47-ad63-4a88e23fd07c.jpg"
+    imageUrl: "https://www.image2url.com/r2/default/images/1781032010091-1f12cf1f-e126-4a47-ad63-4a88e23fd07c.jpg",
+    isSoldOut: true
   },
   {
     id: 13,
@@ -152,7 +156,8 @@ const ARTWORKS: Artwork[] = [
     medium: "Acrylic on Canvas",
     size: "8 x 8 inches",
     price: "Rs 329 INR",
-    imageUrl: "https://www.image2url.com/r2/default/images/1784902637769-a48cd7e0-bde1-44e3-81d0-71365c44b6c5.jpeg"
+    imageUrl: "https://www.image2url.com/r2/default/images/1784902637769-a48cd7e0-bde1-44e3-81d0-71365c44b6c5.jpeg",
+    isSoldOut: true
   },
   {
     id: 16,
@@ -169,6 +174,14 @@ const ARTWORKS: Artwork[] = [
     size: "8 x 10 inches",
     price: "Rs 499 INR",
     imageUrl: "https://www.image2url.com/r2/default/images/1784902282699-a47f44d2-3d60-4cf1-be30-5fb4eaf7a16f.jpeg"
+  },
+    {
+    id: 18,
+    title: "Shivoham",
+    medium: "Acrylic on Canvas",
+    size: "8 x 8 inches",
+    price: "Rs 399 INR",
+    imageUrl: "https://www.image2url.com/r2/default/images/1785743879178-71017ee6-2287-4583-9b84-c5eb751d0bad.jpeg"
   }
 ];
 
