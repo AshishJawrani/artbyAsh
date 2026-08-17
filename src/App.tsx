@@ -62,7 +62,7 @@ const ARTWORKS: Artwork[] = [
     title: "Kailash Pati",
     medium: "Acrylic on Canvas",
     size: "8 x 8 inches",
-    price: "Rs 479 INR",
+    price: "Rs 449 INR",
     imageUrl: "https://www.image2url.com/r2/default/images/1786948696301-fad00fb9-72ee-4bfc-b3dc-797945b9a73b.jpeg"
   }, 
  {
