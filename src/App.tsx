@@ -539,19 +539,13 @@ const Contact = () => {
 
         <div className="flex flex-col md:flex-row justify-center items-start md:items-center gap-16 md:gap-32">
           <div className="space-y-6 text-left">
-            <h3 className="text-2xl uppercase tracking-widest text-stone-400 text-xs font-semibold">Contact Details</h3>
+            <h3 className="text-2xl uppercase tracking-widest text-stone-400 text-xs font-semibold">Contact</h3>
             <div className="space-y-4">
               <a href="mailto:artby.ash29@gmail.com" className="flex items-center gap-4 text-stone-600 hover:text-stone-900 transition-colors group">
                 <div className="w-10 h-10 rounded-full border border-stone-200 flex items-center justify-center group-hover:bg-stone-900 group-hover:text-white transition-all">
                   <Mail size={18} />
                 </div>
                 artby.ash29@gmail.com
-              </a>
-              <a href="tel:+91-9907067136" className="flex items-center gap-4 text-stone-600 hover:text-stone-900 transition-colors group">
-                <div className="w-10 h-10 rounded-full border border-stone-200 flex items-center justify-center group-hover:bg-stone-900 group-hover:text-white transition-all">
-                  <Phone size={18} />
-                </div>
-                +91- 9907067136
               </a>
             </div>
           </div>
