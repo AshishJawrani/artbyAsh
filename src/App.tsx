@@ -83,6 +83,14 @@ const ARTWORKS: Artwork[] = [
   },
   {
     id: 7,
+    title: "Ganapati Bappa",
+    medium: "Acrylic on Canvas",
+    size: "10 x 12 inches",
+    price: "Rs 699 INR",
+    imageUrl: "https://www.image2url.com/r2/default/images/1787832602467-4eafa5b0-9085-4dde-8e86-1f47589930ba.jpeg"
+  },
+  {
+    id: 8,
     title: "Green Forest",
     medium: "Acrylic on Canvas",
     size: "6 x 8 inches",
@@ -90,7 +98,15 @@ const ARTWORKS: Artwork[] = [
     imageUrl: "https://image2url.com/r2/default/images/1773464793063-ef1a1b5b-29e5-42a6-98ec-9cc2aaed586d.jpeg"
   },
   {
-    id: 8,
+    id: 9,
+    title: "Shri Krishna",
+    medium: "Acrylic on Canvas",
+    size: "10 x 12 inches",
+    price: "Rs 719 INR",
+    imageUrl: "https://www.image2url.com/r2/default/images/1787832322116-efd25946-f769-4271-9df7-9feddfb2c221.jpeg"
+  },
+  {
+    id: 10,
     title: "Ember Moon",
     medium: "Acrylic on Canvas",
     size: "8 x 10 inches",
@@ -99,7 +115,7 @@ const ARTWORKS: Artwork[] = [
     isSoldOut: true
   },
   {
-    id: 9,
+    id: 11,
     title: "Golden Passage",
     medium: "Acrylic on Canvas",
     size: "10 x 12 inches",
@@ -107,8 +123,16 @@ const ARTWORKS: Artwork[] = [
     imageUrl: "https://image2url.com/r2/default/images/1772970769348-24ce8a19-1376-44d2-a99a-01ea7e000c21.jpeg",
     isSoldOut: true
   },
+    {
+    id: 12,
+    title: "Mangal Gajanan",
+    medium: "Acrylic on Canvas",
+    size: "8 inches",
+    price: "Rs 549 INR",
+    imageUrl: "https://www.image2url.com/r2/default/images/1787831676599-bc068dab-b176-41f3-9a71-b4bdc9b7932a.jpeg"
+  },
   {
-    id: 10,
+    id: 13,
     title: "Starlit Tides",
     medium: "Acrylic on Canvas",
     size: "6 x 6 inches",
@@ -117,7 +141,7 @@ const ARTWORKS: Artwork[] = [
     isSoldOut: true
   },
   {
-    id: 11,
+    id: 14,
     title: "Shri Kedarnath Dham",
     medium: "Acrylic on Canvas",
     size: "6 inches",
@@ -125,7 +149,7 @@ const ARTWORKS: Artwork[] = [
     imageUrl: "https://www.image2url.com/r2/default/images/1776843742125-ce615d0b-7b5d-4a1d-9eec-a56a6d6993db.jpeg"
   },
   {
-    id: 12,
+    id: 15,
     title: "Lanterns",
     medium: "Acrylic on Canvas",
     size: "8 x 10 inches",
@@ -134,7 +158,7 @@ const ARTWORKS: Artwork[] = [
     isSoldOut: true
   },
   {
-    id: 13,
+    id: 16,
     title: "The Keralam",
     medium: "Acrylic on Canvas",
     size: "6 x 6 inches",
@@ -142,7 +166,7 @@ const ARTWORKS: Artwork[] = [
     imageUrl: "https://www.image2url.com/r2/default/images/1777975768706-955cca74-4f53-47de-9f8a-6c93ee32acf4.jpeg"
   },
   {
-    id: 14,
+    id: 17,
     title: "Golden Hours",
     medium: "Acrylic on Canvas",
     size: "8 inches",
@@ -151,7 +175,7 @@ const ARTWORKS: Artwork[] = [
     isSoldOut: true
   },
   {
-    id: 15,
+    id: 18,
     title: "Starry Night",
     medium: "Acrylic on Canvas",
     size: "8 x 8 inches",
@@ -159,7 +183,7 @@ const ARTWORKS: Artwork[] = [
     imageUrl: "https://www.image2url.com/r2/default/images/1781872039232-aadde60a-a2c6-4e59-a1f9-af2757fc062f.jpeg"
   },
   {
-    id: 16,
+    id: 19,
     title: "Purple Hush",
     medium: "Acrylic on Canvas",
     size: "8 x 10 inches",
@@ -167,7 +191,7 @@ const ARTWORKS: Artwork[] = [
     imageUrl: "https://www.image2url.com/r2/default/images/1782813828218-f4a6a4c7-830c-46a2-8c31-e623d00439d9.jpeg"
   },
   {
-    id: 17,
+    id: 20,
     title: "Whispering Falls",
     medium: "Acrylic on Canvas",
     size: "8 x 8 inches",
@@ -176,7 +200,7 @@ const ARTWORKS: Artwork[] = [
     isSoldOut: true
   },
   {
-    id: 18,
+    id: 21,
     title: "Coastal Solitude",
     medium: "Acrylic on Canvas",
     size: "8 x 10 inches",
@@ -184,7 +208,7 @@ const ARTWORKS: Artwork[] = [
     imageUrl: "https://www.image2url.com/r2/default/images/1783701342637-2c4e56cc-1e1f-44fc-b99f-ff8d8d1b4047.jpeg"
   },
     {
-    id: 19,
+    id: 22,
     title: "Shivoham",
     medium: "Acrylic on Canvas",
     size: "8 x 8 inches",
@@ -192,7 +216,7 @@ const ARTWORKS: Artwork[] = [
     imageUrl: "https://www.image2url.com/r2/default/images/1785743879178-71017ee6-2287-4583-9b84-c5eb751d0bad.jpeg"
   },
   {
-    id: 20,
+    id: 23,
     title: "Aurora Peaks",
     medium: "Acrylic on Canvas",
     size: "8 x 10 inches",
