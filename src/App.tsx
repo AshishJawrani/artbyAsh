@@ -99,7 +99,7 @@ const ARTWORKS: Artwork[] = [
   },
   {
     id: 9,
-    title: "Shri Krishna",
+    title: "Rangilo Kanha",
     medium: "Acrylic on Canvas",
     size: "10 x 12 inches",
     price: "Rs 719 INR",
