@@ -14,7 +14,10 @@ import {
   Menu,
   ArrowUpRight,
   ArrowLeft,
-  ExternalLink
+  ExternalLink,
+  Truck,
+  Clock,
+  ShieldCheck
 } from 'lucide-react';
 
 // --- Types ---
@@ -229,7 +232,7 @@ const ARTWORKS: Artwork[] = [
     medium: "Acrylic on Canvas",
     size: "8 x 10 inches",
     price: "Rs 349 INR",
-    imageUrl: "https://www.image2url.com/r2/default/images/1792730771787-631ce813-f26d-4f6f-83c0-acb5b69359e8.jpeg"
+    imageUrl: "https://www.image2url.com/r2/default/images/1792740617124-a533d964-237a-4be1-8a19-47d3f4f536aa.jpeg"
   }
 ];
 
@@ -593,17 +596,80 @@ const Contact = () => {
           <div className="space-y-6 text-left">
             <h3 className="text-2xl uppercase tracking-widest text-stone-400 text-xs font-semibold">Social</h3>
             <div className="flex gap-4">
-              <a href="https://www.instagram.com/being_ash_aj/" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full border border-stone-200 flex items-center justify-center hover:bg-stone-900 hover:text-white transition-all">
+              <a href="https://www.instagram.com/being_ash_aj/" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full border border-stone-200 flex items-center justify-center hover:bg-stone-900 hover:text-white transition-all" aria-label="Instagram">
                 <Instagram size={20} />
               </a>
-              <a href="#" className="w-12 h-12 rounded-full border border-stone-200 flex items-center justify-center hover:bg-stone-900 hover:text-white transition-all">
+              <a href="https://artbyash.com" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full border border-stone-200 flex items-center justify-center hover:bg-stone-900 hover:text-white transition-all" aria-label="Website">
                 <ExternalLink size={20} />
               </a>
             </div>
           </div>
         </div>
+
+        {/* Shipping & Delivery Details */}
+        <div className="mt-20 pt-16 border-t border-stone-200">
+          <div className="text-center max-w-xl mx-auto mb-10">
+            <span className="text-[11px] uppercase tracking-[0.25em] text-stone-400 font-semibold block mb-2">Shipping & Packaging</span>
+            <h3 className="text-2xl md:text-3xl font-serif text-stone-900">Safe Delivery to Your Doorstep</h3>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto text-left">
+            <div className="bg-white/80 backdrop-blur-sm p-6 rounded-xl border border-stone-200/80 shadow-xs flex items-start gap-4">
+              <div className="w-11 h-11 rounded-lg bg-stone-900 text-white flex items-center justify-center shrink-0">
+                <Truck size={20} />
+              </div>
+              <div>
+                <h4 className="font-medium text-stone-900 text-base">PAN India Delivery</h4>
+                <p className="text-xs text-stone-600 mt-1 leading-relaxed">
+                  Delivery available across all states and pin codes in India through trusted express courier partners.
+                </p>
+              </div>
+            </div>
+
+            <div className="bg-white/80 backdrop-blur-sm p-6 rounded-xl border border-stone-200/80 shadow-xs flex items-start gap-4">
+              <div className="w-11 h-11 rounded-lg bg-stone-900 text-white flex items-center justify-center shrink-0">
+                <Clock size={20} />
+              </div>
+              <div>
+                <h4 className="font-medium text-stone-900 text-base">4–5 Days Shipping</h4>
+                <p className="text-xs text-stone-600 mt-1 leading-relaxed">
+                  Artwork typically takes 4–5 business days for shipping and delivery to reach your address.
+                </p>
+              </div>
+            </div>
+
+            <div className="bg-white/80 backdrop-blur-sm p-6 rounded-xl border border-stone-200/80 shadow-xs flex items-start gap-4">
+              <div className="w-11 h-11 rounded-lg bg-stone-900 text-white flex items-center justify-center shrink-0">
+                <ShieldCheck size={20} />
+              </div>
+              <div>
+                <h4 className="font-medium text-stone-900 text-base">Safely Packaged in Layers</h4>
+                <p className="text-xs text-stone-600 mt-1 leading-relaxed">
+                  Every artwork is securely encased in multiple protective, moisture-proof and shock-absorbing layers for safe transit.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
+  );
+};
+
+const Footer = () => {
+  return (
+    <footer className="py-8 px-6 bg-stone-900 text-stone-400 text-xs border-t border-stone-800">
+      <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
+        <p>© {new Date().getFullYear()} Art by Ashish Jawrani. All rights reserved.</p>
+        <div className="flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-stone-400 text-[11px] tracking-wider uppercase">
+          <span>PAN India Delivery</span>
+          <span className="text-stone-600">•</span>
+          <span>4–5 Days Shipping</span>
+          <span className="text-stone-600">•</span>
+          <span>Safely Packaged in Layers</span>
+        </div>
+      </div>
+    </footer>
   );
 };
 
@@ -615,6 +681,7 @@ export default function App() {
       <Gallery />
       <About />
       <Contact />
+      <Footer />
     </div>
   );
 }
