@@ -222,6 +222,14 @@ const ARTWORKS: Artwork[] = [
     size: "8 x 10 inches",
     price: "Rs 499 INR",
     imageUrl: "https://www.image2url.com/r2/default/images/1784902282699-a47f44d2-3d60-4cf1-be30-5fb4eaf7a16f.jpeg"
+  },
+    {
+    id: 24,
+    title: "Cuppa Coffee",
+    medium: "Acrylic on Canvas",
+    size: "8 x 10 inches",
+    price: "Rs 349 INR",
+    imageUrl: "https://www.image2url.com/r2/default/images/1792730771787-631ce813-f26d-4f6f-83c0-acb5b69359e8.jpeg"
   }
 ];
 
