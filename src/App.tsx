@@ -190,7 +190,7 @@ const ARTWORKS: Artwork[] = [
     title: "Purple Hush",
     medium: "Acrylic on Canvas",
     size: "8 x 10 inches",
-    price: "Rs 429 INR",
+    price: "Rs 379 INR",
     imageUrl: "https://www.image2url.com/r2/default/images/1782813828218-f4a6a4c7-830c-46a2-8c31-e623d00439d9.jpeg"
   },
   {
@@ -207,7 +207,7 @@ const ARTWORKS: Artwork[] = [
     title: "Coastal Solitude",
     medium: "Acrylic on Canvas",
     size: "8 x 10 inches",
-    price: "Rs 449 INR",
+    price: "Rs 419 INR",
     imageUrl: "https://www.image2url.com/r2/default/images/1783701342637-2c4e56cc-1e1f-44fc-b99f-ff8d8d1b4047.jpeg"
   },
     {
@@ -231,8 +231,16 @@ const ARTWORKS: Artwork[] = [
     title: "Cuppa Coffee",
     medium: "Acrylic on Canvas",
     size: "8 x 10 inches",
-    price: "Rs 349 INR",
+    price: "Rs 329 INR",
     imageUrl: "https://www.image2url.com/r2/default/images/1792740617124-a533d964-237a-4be1-8a19-47d3f4f536aa.jpeg"
+  },
+    {
+    id: 25,
+    title: "Sips of Abstraction",
+    medium: "Acrylic on Canvas",
+    size: "10 x 12 inches",
+    price: "Rs 479 INR",
+    imageUrl: "https://www.image2url.com/r2/default/images/1792914134294-2bb5d82c-861a-4aa1-ad82-6a24f14dd132.jpeg"
   }
 ];
 
