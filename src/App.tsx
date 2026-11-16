@@ -241,6 +241,14 @@ const ARTWORKS: Artwork[] = [
     size: "10 x 12 inches",
     price: "Rs 479 INR",
     imageUrl: "https://www.image2url.com/r2/default/images/1792914134294-2bb5d82c-861a-4aa1-ad82-6a24f14dd132.jpeg"
+  },
+    {
+    id: 26,
+    title: "Rooftop Reverie",
+    medium: "Acrylic on Canvas",
+    size: "8 x 8 inches",
+    price: "Rs 349 INR",
+    imageUrl: "https://www.image2url.com/r2/default/images/1794827646511-86f5eca7-98c5-45c5-805b-6cc03bb37197.jpeg"
   }
 ];
 
